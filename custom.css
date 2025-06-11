@@ -52,4 +52,7 @@ body {
 #tdTransactionInformation {
   height: 32px;
 }
+#tdTransactionButtons {
+  text-align: center;
+}
 
