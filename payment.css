@@ -1,0 +1,116 @@
+/* 支付页面专用样式 - 简洁版本 */
+
+/* 页面基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 主要容器 */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 输入框 - 扩大尺寸 */
+input[type="text"],
+input[type="email"], 
+input[type="tel"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+
+/* 输入框焦点 */
+input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* 按钮 - 扩大尺寸 */
+button,
+input[type="submit"] {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    min-height: 55px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 标签 */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* 标题 */
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* 错误信息 */
+.error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 成功信息 */
+.success {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 手机适配 */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 20px;
+    }
+} 
