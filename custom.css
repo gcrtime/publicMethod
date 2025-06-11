@@ -23,9 +23,6 @@ body {
     box-sizing: border-box;
 }
 
-#tdManualEntry {
-  background-color: rebeccapurple;
-}
 
 #cardNumber, #cardExpiry, #cardCvv {
   height: 32px;
@@ -42,6 +39,10 @@ body {
 }
 .tdHeader {
   height: 32px;
+}
+
+.content {
+  background-color: rebeccapurple;
 }
 
 /* 标题样式 */
