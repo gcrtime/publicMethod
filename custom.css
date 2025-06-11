@@ -41,13 +41,13 @@ body {
 
 
 
-#ddlExpirationMonth, #ddlExpirationYear{
+#ddlExpirationMonth{
   height: 32px;
 }
 
-/* #ddlExpirationYear {
+#ddlExpirationYear {
   height: 32px;
-} */
+}
 
 #tdTransactionInformation {
   height: 32px;
