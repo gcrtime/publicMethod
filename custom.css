@@ -23,7 +23,7 @@ body {
     box-sizing: border-box;
 }
 
-.cardNumber, #CVV {
+.cardNumber, .cvv {
   height: 32px;
 }
 
