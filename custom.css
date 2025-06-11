@@ -1,22 +1,43 @@
 /* Worldpay Hosted Payment Page 自定义样式 */
 
 /* 整体页面样式 */
+html {
+  height: 100%;
+}
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
     margin: 0;
     padding: 20px;
     line-height: 1.6;
+    height: 100%;
 }
 
-/* 主容器 */
-.container, .payment-container, .form-container {
-    max-width: 600px;
+#formHP {
+  max-width: 600px;
     margin: 0 auto;
     background: white;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#cardNumber, #cardExpiry, #cardCvv {
+  height: 32px;
+  font-size: 16px;
+  padding: 0 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.tableTdErrorMessage {
+  height: 32px;
+}
+.tdHeader {
+  height: 32px;
 }
 
 /* 标题样式 */
