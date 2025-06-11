@@ -40,6 +40,6 @@ body {
   background-color: rebeccapurple;
 }
 
-#trManualEntryCardNumber {
-  margin-bottom: 10px;
+#trManualEntryExpDate {
+  height: 32px;
 }
