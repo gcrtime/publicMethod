@@ -45,7 +45,11 @@ body {
   height: 32px;
 }
 
-#ddlExpirationMonth,#ddlExpirationYear {
+#ddlExpirationMonth {
+  height: 32px;
+}
+
+#ddlExpirationYear {
   height: 32px;
 }
 
