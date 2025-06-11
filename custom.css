@@ -1,9 +1,7 @@
 /* Worldpay Hosted Payment Page 自定义样式 */
 
 /* 整体页面样式 */
-html {
-  height: 100%;
-}
+
 body {
     background-color: #f8f9fa;
     margin: 0;
@@ -11,6 +9,8 @@ body {
     line-height: 1.6;
     height: 100%;
 }
+
+/* 主容器 */
 
 #formHP {
   max-width: 600px;
@@ -22,21 +22,13 @@ body {
     height: 100%;
     box-sizing: border-box;
 }
-
-.cardNumber, .cvv {
+.cardNumber {
+  height: 32px;
+}
+.cvv {
   height: 32px;
 }
 
-
-#cardNumber, #cardExpiry, #cardCvv {
-  height: 32px;
-  font-size: 16px;
-  padding: 0 12px;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  margin-bottom: 12px;
-  width: 100%;
-}
 
 .tableTdErrorMessage {
   height: 32px;
@@ -44,288 +36,6 @@ body {
 .tdHeader {
   height: 32px;
 }
-
-#upFormHP {
+#tdManualEntry {
   background-color: rebeccapurple;
 }
-
-/* 标题样式 */
-h1, h2, h3, .title, .header {
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 600;
-}
-
-h1 {
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-/* 表单标签 */
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-    color: #495057;
-    font-size: 16px;
-}
-
-/* 输入框样式 - 扩大尺寸 */
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-input[type="password"],
-select,
-textarea {
-    width: 100%;
-    padding: 16px 20px;
-    font-size: 18px;
-    border: 2px solid #e9ecef;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    transition: border-color 0.3s ease;
-    margin-bottom: 20px;
-    min-height: 56px;
-}
-
-/* 输入框焦点状态 */
-input:focus,
-select:focus,
-textarea:focus {
-    border-color: #007bff;
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
-}
-
-/* 按钮样式 - 扩大尺寸 */
-button,
-input[type="submit"],
-input[type="button"],
-.btn,
-.button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 18px 32px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 100%;
-    min-height: 56px;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
-}
-
-button:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover,
-.btn:hover {
-    background-color: #0056b3;
-}
-
-/* 次要按钮 */
-.btn-secondary,
-button.secondary {
-    background-color: #6c757d;
-}
-
-.btn-secondary:hover,
-button.secondary:hover {
-    background-color: #545b62;
-}
-
-/* 表格样式 - 扩大尺寸 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 16px;
-}
-
-th, td {
-    padding: 16px 20px;
-    text-align: left;
-    border-bottom: 1px solid #dee2e6;
-}
-
-th {
-    background-color: #f8f9fa;
-    font-weight: 600;
-    color: #495057;
-}
-
-tr:hover {
-    background-color: #f8f9fa;
-}
-
-/* 表单行样式 */
-.form-row,
-.row {
-    margin-bottom: 24px;
-}
-
-.form-group {
-    margin-bottom: 24px;
-}
-
-/* 两列布局 */
-.col-half {
-    width: 48%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.col-half:first-child {
-    margin-right: 4%;
-}
-
-/* 错误信息样式 */
-.error,
-.error-message {
-    color: #dc3545;
-    font-size: 14px;
-    margin-top: 5px;
-    display: block;
-}
-
-/* 成功信息样式 */
-.success,
-.success-message {
-    color: #28a745;
-    font-size: 14px;
-    margin-top: 5px;
-    display: block;
-}
-
-/* 警告信息样式 */
-.warning {
-    background-color: #fff3cd;
-    border: 1px solid #ffeaa7;
-    color: #856404;
-    padding: 15px;
-    border-radius: 6px;
-    margin: 20px 0;
-}
-
-/* 信息提示样式 */
-.info {
-    background-color: #d1ecf1;
-    border: 1px solid #bee5eb;
-    color: #0c5460;
-    padding: 15px;
-    border-radius: 6px;
-    margin: 20px 0;
-}
-
-/* 加载状态 */
-.loading {
-    opacity: 0.6;
-    pointer-events: none;
-}
-
-/* 必填字段标识 */
-.required::after {
-    content: " *";
-    color: #dc3545;
-}
-
-/* 卡片样式 */
-.card {
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-    background: white;
-}
-
-.card-header {
-    font-weight: 600;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #dee2e6;
-}
-
-/* 响应式设计 */
-@media (max-width: 768px) {
-    .container, .payment-container, .form-container {
-        margin: 10px;
-        padding: 20px;
-    }
-    
-    .col-half {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-    
-    input, select, textarea, button {
-        font-size: 16px;
-    }
-}
-
-/* 支付安全图标区域 */
-.security-icons {
-    text-align: center;
-    margin: 30px 0;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-}
-
-/* 进度指示器 */
-.progress {
-    background-color: #e9ecef;
-    border-radius: 4px;
-    height: 8px;
-    margin: 20px 0;
-}
-
-.progress-bar {
-    background-color: #007bff;
-    height: 100%;
-    border-radius: 4px;
-    transition: width 0.3s ease;
-}
-
-/* 禁用状态 */
-input:disabled,
-select:disabled,
-button:disabled {
-    background-color: #e9ecef;
-    color: #6c757d;
-    cursor: not-allowed;
-    opacity: 0.65;
-}
-
-/* 文本对齐 */
-.text-center {
-    text-align: center;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-left {
-    text-align: left;
-}
-
-/* 间距工具类 */
-.mt-20 {
-    margin-top: 20px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.p-20 {
-    padding: 20px;
-} 
