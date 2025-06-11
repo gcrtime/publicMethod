@@ -39,3 +39,7 @@ body {
 #tdManualEntry {
   background-color: rebeccapurple;
 }
+
+#trManualEntryCardNumber {
+  margin-bottom: 10px;
+}
