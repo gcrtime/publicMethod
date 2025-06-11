@@ -41,16 +41,15 @@ body {
 
 
 
-#trManualEntryExpDate {
+#ddlExpirationMonth, #ddlExpirationYear{
   height: 32px;
 }
 
-#ddlExpirationMonth {
+/* #ddlExpirationYear {
+  height: 32px;
+} */
+
+#tdTransactionInformation {
   height: 32px;
 }
-
-#ddlExpirationYear {
-  height: 32px;
-}
-
 
