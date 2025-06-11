@@ -43,3 +43,7 @@ body {
 #trManualEntryExpDate {
   height: 32px;
 }
+
+#ddlExpirationMonth {
+  height: 32px;
+}
