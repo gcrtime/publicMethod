@@ -27,6 +27,8 @@ body {
 }
 .cvv {
   height: 32px;
+  width: 200px;
+  padding-right: auto;
 }
 
 
@@ -36,9 +38,8 @@ body {
 .tdHeader {
   height: 32px;
 }
-#tdManualEntry {
-  background-color: rebeccapurple;
-}
+
+
 
 #trManualEntryExpDate {
   height: 32px;
@@ -47,3 +48,5 @@ body {
 #ddlExpirationMonth {
   height: 32px;
 }
+
+
