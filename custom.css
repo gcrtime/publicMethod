@@ -23,6 +23,10 @@ body {
     box-sizing: border-box;
 }
 
+.cardNumber {
+  height: 32px;
+}
+
 
 #cardNumber, #cardExpiry, #cardCvv {
   height: 32px;
